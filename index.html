@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engima do Labirinto</title>
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script type="text/javascript" src="https://unpkg.com/peerjs@1.0.0/dist/peerjs.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="game.js" type="module" defer></script> -->
+<body>
+    
+    <script type="module"> 
+        import Game from './engine/src/game.js';
+        import SceneLoading from './scenes/loading.js';
+
+        window.game = new Game(SceneLoading, 1200, 920);
+    </script>
+
+</body>
+
+
+</html>
